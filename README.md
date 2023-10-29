@@ -17,3 +17,6 @@ This is a community-maintained ApeChain L2 testnet as a Sepolia rollup based usi
 
 # SuperBridge (from Sepolia to ApeChain-Test)
 - https://apechain-test-qbuapbatak.testnets.superbridge.app/ (need SepoliaETH)
+
+# Notes
+- Another World will transit into this ApeChain Testnet and retire its OP-Stack https://explorerl2-anotherworld-t6iniul41y.t.conduit.xyz/
