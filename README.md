@@ -15,8 +15,9 @@ This is a community-maintained ApeChain L2 testnet as a Sepolia rollup based usi
 - Infura https://www.infura.io/faucet/sepolia
 - Alchemy https://sepoliafaucet.com/
 
-# SuperBridge (from Sepolia to ApeChain-Test)
-- https://apechain-test-qbuapbatak.testnets.superbridge.app/ (need SepoliaETH)
+# Bridging (from Sepolia to ApeChain-Test)
+- SuperBridge https://apechain-test-qbuapbatak.testnets.superbridge.app/ (need SepoliaETH) via [Superbridge](https://twitter.com/superbridgeapp)
+- Pay erc20 on L1 Goerli/Sepolia to mint NFTs on L2 OP-Goerli/ApeChain-Testnet using OP-Stack native crossdomain messenger - https://github.com/AnotherWorldDAO/L2MintWithAPE
 
 # Notes
 - Another World will transit into this ApeChain Testnet and retire its OP-Stack https://explorerl2-anotherworld-t6iniul41y.t.conduit.xyz/
