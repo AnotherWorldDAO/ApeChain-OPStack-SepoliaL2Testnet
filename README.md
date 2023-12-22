@@ -18,7 +18,7 @@ Gas costs and chain revenue should go back to its community. We all witnessed ga
 This ApeChain Testnet is POC demo of using Optimism's OP Stack. The A-Team will carry out further development stated in [AIP-377](https://forum.apecoin.com/t/aip-377-apechain-a-team-research-deploy-manage-apechain/20163)
 
 ### ApeCoin voting
-ApeCoin holders can still vote when using ApeCoin.
+ApeCoin holders can still vote when using ApeChain (w. Snapshot strategies)
 
 ## APE as gas?
 L2 gas should be ETH, but there are ways to do gas fee reimbursement. 
