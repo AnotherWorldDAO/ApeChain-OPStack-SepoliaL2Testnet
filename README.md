@@ -56,4 +56,18 @@ L2 gas should be ETH, but there are ways to do gas fee reimbursement.
 - OP loves arts https://x.com/Optimism/status/1732159055420854732?s=20
 - RaaS tips https://x.com/KAndrewHuang/status/1720071725348421672?s=20
 - evm gateway https://github.com/ethereum-optimism/evmgateway-starter
-- official RFP from ApeCoinDAO - https://forum.apecoin.com/t/request-for-proposals-apechain/21139
+- ApeChain RFP - https://forum.apecoin.com/t/request-for-proposals-apechain/21139
+
+# Gaming Support & Discussion (from ApeChain RFP)
+**"Can the proposed blockchain architecture be optimized for high-performance gaming transactions and interactions, with minimal latency and maximum security? If so, you may elaborate."**
+- Given the current L2 fee [stats](https://l2fees.info/), game tx should not be on L2. Even after EIP4844, L2 tx fees will still be too high for fully onchain games where all game states are matching blockchain states (a bit too wasteful imo). Nearly fully onchain games should have their own rollup "App Chain" based on ApeChain. ApeChain itself should be an L2 directly secured by Ethereum (not through an intermediate 3rd party service).
+
+**"Robust support for Non-Fungible Tokens (NFTs) to represent unique in-game items and assets, providing true digital ownership to players. This is not limited to the support of established EVM non-fungible token standards such as ERC-721 or ERC 1155; but also open to Ethereum improvement proposals (EIPs) related to NFTs and gaming"**
+- All L2s with upgradeable infra can support this just fine.
+
+**"Support for native on-chain game engines such as Mud, Dojo, Paima game engine and others"**
+- Native on-chain games should have their own "App Chains" based on a rollup of ApeChain, or they will be too expensive to operate on standard L2s (each game state change requires a tx).
+
+**"Cross-platform compatibility and interoperability, allowing for a unified gaming experience across various games and platforms. User-centric design, ensuring ease of use for gamers of all levels, with intuitive interfaces and straightforward navigation. This is not limited to supporting concepts such as account abstraction, but also refers to custom mechanisms that lead to faster onboarding or tailored gaming experiences."**
+- This is more on the games themselves with Account Abstraction integration. ApeChain will recommend AA integration partners.
+
