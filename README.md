@@ -2,7 +2,7 @@
 This is a community-maintained [ApeChain L2 Testnet](https://explorerl2-apechain-test-qbuapbatak.t.conduit.xyz/) as a Sepolia rollup using OP-Stack deployed by [jackie.eth](https://x.com/JackieLeeETH/status/1718281383951638786?s=20) using [Conduit](https://conduit.xyz/). There have been lots ApeChain discussions but zero actions. This is why apes are [stepping up](https://forum.apecoin.com/t/aip-377-apechain-a-team-research-deploy-manage-apechain/20163).
 
 # Why ApeChain?
-Gas costs and chain revenue should go back to its community. We all witnessed gas wasted on OtherSide mints (i.e., people were paying 2e gas). All these game-related gas could go back to the community if we have our own ApeChain. To prepare for the future growth of onchain game, commerce, and entertainment based on the apes and ApeCoin ecosystem, we need an ApeChain.
+**Gas costs and chain revenue should go back to its community.** We all witnessed gas wasted on OtherSide mints (i.e., people were paying 2e gas). All these game-related gas could go back to the community if we have our own ApeChain. To prepare for the future growth of onchain game, commerce, and entertainment based on the apes and ApeCoin ecosystem, we need an ApeChain.
 
 ### Why L2?
  - L2 is secured by ETH L1 infra. All high value NFTs are on ETH L1.
