@@ -55,3 +55,5 @@ L2 gas should be ETH, but there are ways to do gas fee reimbursement.
 - Vitalik's zkEVM take https://x.com/VitalikButerin/status/1734947774343332116?s=20
 - OP loves arts https://x.com/Optimism/status/1732159055420854732?s=20
 - RaaS tips https://x.com/KAndrewHuang/status/1720071725348421672?s=20
+- evm gateway https://github.com/ethereum-optimism/evmgateway-starter
+- official RFP from ApeCoinDAO - https://forum.apecoin.com/t/request-for-proposals-apechain/21139
