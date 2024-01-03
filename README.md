@@ -4,15 +4,18 @@ This is a community-maintained [ApeChain L2 Testnet](https://explorerl2-apechain
 # Why ApeChain?
 **Gas costs and chain revenue should go back to its community.** We all witnessed gas wasted on OtherSide mints (i.e., people were paying 2e gas). All these game-related gas could go back to the community if we have our own ApeChain. To prepare for the future growth of onchain game, commerce, and entertainment based on the apes and ApeCoin ecosystem, we need an ApeChain.
 
-### Why L2?
- - L2 is secured by ETH L1 infra. All high value NFTs are on ETH L1.
+### Why a standard rollup L2?
+ - L2 is secured by ETH L1 infra. All high-value NFTs are on ETH L1.
  - Gas fees are lower https://l2fees.info/
+ - A standard rollup L2 does not require devs to use additional libs and toolings.
 
 ### Why OP-Stack?
  - Used by Base
  - Great dev community (many OP dev friends helped answer questions. thank u all!!)
  - Easier to deploy (for me and for anyone else)
  - Official Optimism support for Superchain (chains deployed using OP Stack)
+ - L1 fees will even be lower after EIP-4844.
+ - Native connection between L1/L2 with minimum dependency
 
 ### AIP-377
 This ApeChain Testnet is POC demo of using Optimism's OP Stack. The A-Team will carry out further development stated in [AIP-377](https://forum.apecoin.com/t/aip-377-apechain-a-team-research-deploy-manage-apechain/20163)
