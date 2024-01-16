@@ -2,9 +2,9 @@
 This is a community-maintained [ApeChain L2 Testnet](https://explorerl2-apechain-test-qbuapbatak.t.conduit.xyz/) as a Sepolia rollup using OP-Stack deployed by [jackie.eth](https://x.com/JackieLeeETH/status/1718281383951638786?s=20) using [Conduit](https://conduit.xyz/). There have been lots ApeChain discussions but zero actions. This is why apes are [stepping up](https://forum.apecoin.com/t/aip-377-apechain-a-team-research-deploy-manage-apechain/20163).
 
 # Why ApeChain?
-**Gas costs and chain revenue should go back to its community.** We all witnessed gas wasted on OtherSide mints (i.e., people were paying 2e gas). All these game-related gas could go back to the community if we have our own ApeChain. To prepare for the future growth of onchain game, commerce, and entertainment based on the apes and ApeCoin ecosystem, we need an ApeChain.
+**Gas costs and chain revenue should go back to its community.** We all witnessed gas wasted on OtherSide mints (i.e., people were paying 2e gas to ETH mainnet). All these game-related gas could go back to the community if we have our own ApeChain. To prepare for the future growth of onchain game, commerce, and entertainment based on the apes and ApeCoin ecosystem, we need an ApeChain.
 
-### Why a standard rollup L2?
+### Why a standard interoperable rollup L2?
  - L2 is secured by ETH L1 infra. All high-value NFTs are on ETH L1.
  - Gas fees are lower https://l2fees.info/
  - A standard rollup L2 does not require devs to use additional libs and toolings.
@@ -20,11 +20,11 @@ This is a community-maintained [ApeChain L2 Testnet](https://explorerl2-apechain
 ### AIP-377
 This ApeChain Testnet is POC demo of using Optimism's OP Stack. The A-Team will carry out further development stated in [AIP-377](https://forum.apecoin.com/t/aip-377-apechain-a-team-research-deploy-manage-apechain/20163)
 
-### ApeCoin voting
-ApeCoin holders can still vote when using ApeChain (w. Snapshot strategies)
+### ApeCoin voting/onramp
+ApeCoin holders can still vote when using ApeChain (w. Snapshot strategies). New ApeCoin users without pre-installed wallets can use social sign-in to create Halliday smart accounts (Account Abstraction integration partner) to acquire ApeCoin (fiat KYC onramp) and will be able to vote.
 
 ## APE as gas?
-L2 gas should be ETH, but there are ways to do gas fee reimbursement. 
+L2 gas should be ETH, but there are ways to do gas fee reimbursement. Game App Chains can be roll-ups from ApeChain (and have native ERC-20 as gas). ApeChain will collect App Chain gas as revenues. For example, ApeChain is an L2 chain like Optimism and Base. Game apps can have their own rollups as L3/App Chains using $APE (or other ERC20) as native gas tokens. ApeChain will collect gas as chain revenue.
 
 # Testnet Chain Info
 - ChainId `111`
@@ -69,7 +69,7 @@ L2 gas should be ETH, but there are ways to do gas fee reimbursement.
 - All L2s with upgradeable infra can support this just fine.
 
 "Support for native on-chain game engines such as Mud, Dojo, Paima game engine and others"
-- Native on-chain games should have their own "App Chains" based on a rollup of ApeChain, or they will be too expensive to operate on standard L2s (each game state change requires a tx).
+- Native on-chain games should have their own "App Chains" as rollups on ApeChain, or games will be too expensive to operate on standard L2s (each game state change requires tx gas).
 
 "Cross-platform compatibility and interoperability, allowing for a unified gaming experience across various games and platforms. User-centric design, ensuring ease of use for gamers of all levels, with intuitive interfaces and straightforward navigation. This is not limited to supporting concepts such as account abstraction, but also refers to custom mechanisms that lead to faster onboarding or tailored gaming experiences."
 - This is more on the games themselves with Account Abstraction integration. ApeChain will recommend AA integration partners.
