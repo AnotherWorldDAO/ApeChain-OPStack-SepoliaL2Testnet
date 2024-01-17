@@ -8,6 +8,8 @@ This is a community-maintained [ApeChain L2 Testnet](https://explorerl2-apechain
  - L2 is secured by ETH L1 infra. All high-value NFTs are on ETH L1.
  - Gas fees are lower https://l2fees.info/
  - A standard rollup L2 does not require devs to use additional libs and toolings.
+ - "Validiums are better than multisigs... Rollups are better than validiums security wise, though more expensive" - [Vitalik](https://x.com/VitalikButerin/status/1747376935607718136?s=20)
+ - "The core of being a rollup is the unconditional security guarantee: you can get your assets out even if everyone else colludes against you. Can't get that if DA is dependent on an external system. But being a validium is a correct choice for many apps, and using good distributed DA guarantee systems can be a good way to increase the practical security of a validium." - [Vitalik](https://x.com/VitalikButerin/status/1747193558204105006?s=20)
 
 ### Why OP-Stack?
  - Used by Base
